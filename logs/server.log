@@ -1,24 +1,142 @@
-2026-01-22 15:49:56.508 [main] INFO - Loading server properties...
-2026-01-22 15:49:56.829 [main] INFO - -- Nukkit MOT --
-2026-01-22 15:50:03.648 [main] INFO - Loaded 0 resource packs
-2026-01-22 15:50:03.655 [main] INFO - Opening server on 0.0.0.0:19132
-2026-01-22 15:50:03.819 [main] INFO - Enabling Nukkit-MOT vgit-2728b58
-2026-01-22 15:50:06.559 [main] INFO - NetEase creative items conversion: 817 converted, 23 skipped
-2026-01-22 15:50:06.560 [main] INFO - Converted 1689 creative items to NetEase version
-2026-01-22 15:50:06.592 [main] INFO - native LevelDB provider: false
-2026-01-22 15:50:06.698 [main] INFO - Preparing level "world"
-2026-01-22 15:50:07.922 [main] INFO - Preparing level "nether"
-2026-01-22 15:50:07.954 [main] INFO - Preparing level "the_end"
-2026-01-22 15:50:08.680 [main] INFO - Done (12.208s)! For help, type "help"
-2026-01-22 15:50:38.442 [main] INFO - "Could not op (already op or higher): Memet7867"
-2026-01-22 15:50:45.732 [main] INFO - Turned on the whitelist
-2026-01-22 15:50:57.934 [main] INFO - Usage: 
-2026-01-22 15:50:57.935 [main] INFO - - /whitelist <add|remove> <player: target>
-2026-01-22 15:50:57.935 [main] INFO - - /whitelist <on|off|list|reload>
-2026-01-22 15:51:13.083 [main] INFO - Added Memet7867 to the whitelist
-2026-01-22 15:52:20.682 [main] INFO - Unknown command. Try /help for a list of commands
-2026-01-22 15:52:23.583 [main] INFO - [CONSOLE: Stopping the server]
-2026-01-22 15:52:23.633 [main] INFO - Unloading level "world"
-2026-01-22 15:52:23.636 [main] INFO - Unloading level "nether"
-2026-01-22 15:52:23.637 [main] INFO - Unloading level "the_end"
-2026-01-22 15:52:23.643 [Watchdog] FATAL - The Watchdog thread has been interrupted and is no longer monitoring the server state
+2026-01-22 16:03:05.538 [main] INFO  - Loading server properties...
+2026-01-22 16:03:05.554 [main] INFO  - Selected English (eng) as the base language
+2026-01-22 16:03:05.556 [main] INFO  - Starting Minecraft: BE server version §bv1.21.50§r
+2026-01-22 16:03:06.430 [main] INFO  - Loading recipes...
+2026-01-22 16:03:06.900 [main] INFO  - Successfully loaded 2583 recipes
+2026-01-22 16:03:06.905 [main] INFO  - Successfully loaded 0 resource packs
+2026-01-22 16:03:06.913 [main] INFO  - Opening server on 0.0.0.0:19132
+2026-01-22 16:03:07.011 [main] INFO  - This server is running Nukkit version §egit-d02928d§f "§b§f" (API 1.1.0)
+2026-01-22 16:03:07.012 [main] INFO  - Nukkit is distributed under the GPL License
+2026-01-22 16:03:07.323 [main] INFO  - Preparing level "§aworld§f"
+2026-01-22 16:03:07.380 [main] INFO  - Preparing level "§anether§f"
+2026-01-22 16:03:07.411 [main] ERROR - Failed to read chunk 8, 8
+java.lang.IllegalArgumentException: Invalid chunk serializer version 41! Serializers up to 1.21.30 (version 40) are supported
+	at cn.nukkit.level.format.leveldb.serializer.ChunkSerializers.getChunkSerializer(ChunkSerializers.java:45) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.serializer.ChunkSerializers.deserializeChunk(ChunkSerializers.java:55) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.readChunk(LevelDBProvider.java:309) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.readOrCreateChunk(LevelDBProvider.java:272) [nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.getChunk(LevelDBProvider.java:189) [nukkit.jar:?]
+	at cn.nukkit.level.Level.forceLoadChunk(Level.java:3236) [nukkit.jar:?]
+	at cn.nukkit.level.Level.getChunk(Level.java:2821) [nukkit.jar:?]
+	at cn.nukkit.level.Level.populateChunk(Level.java:3471) [nukkit.jar:?]
+	at cn.nukkit.Server.<init>(Server.java:620) [nukkit.jar:?]
+	at cn.nukkit.Nukkit.main(Nukkit.java:113) [nukkit.jar:?]
+2026-01-22 16:03:08.195 [main] ERROR - Failed to read chunk 7, 7
+java.lang.IllegalArgumentException: Invalid chunk serializer version 41! Serializers up to 1.21.30 (version 40) are supported
+	at cn.nukkit.level.format.leveldb.serializer.ChunkSerializers.getChunkSerializer(ChunkSerializers.java:45) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.serializer.ChunkSerializers.deserializeChunk(ChunkSerializers.java:55) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.readChunk(LevelDBProvider.java:309) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.readOrCreateChunk(LevelDBProvider.java:272) [nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.getChunk(LevelDBProvider.java:189) [nukkit.jar:?]
+	at cn.nukkit.level.Level.forceLoadChunk(Level.java:3236) [nukkit.jar:?]
+	at cn.nukkit.level.Level.getChunk(Level.java:2821) [nukkit.jar:?]
+	at cn.nukkit.level.generator.task.PopulationTask.<init>(PopulationTask.java:36) [nukkit.jar:?]
+	at cn.nukkit.level.Level.populateChunkTask(Level.java:3505) [nukkit.jar:?]
+	at cn.nukkit.level.Level.populateChunk(Level.java:3494) [nukkit.jar:?]
+	at cn.nukkit.Server.<init>(Server.java:620) [nukkit.jar:?]
+	at cn.nukkit.Nukkit.main(Nukkit.java:113) [nukkit.jar:?]
+2026-01-22 16:03:08.199 [main] ERROR - Failed to read chunk 8, 7
+java.lang.IllegalArgumentException: Invalid chunk serializer version 41! Serializers up to 1.21.30 (version 40) are supported
+	at cn.nukkit.level.format.leveldb.serializer.ChunkSerializers.getChunkSerializer(ChunkSerializers.java:45) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.serializer.ChunkSerializers.deserializeChunk(ChunkSerializers.java:55) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.readChunk(LevelDBProvider.java:309) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.readOrCreateChunk(LevelDBProvider.java:272) [nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.getChunk(LevelDBProvider.java:189) [nukkit.jar:?]
+	at cn.nukkit.level.Level.forceLoadChunk(Level.java:3236) [nukkit.jar:?]
+	at cn.nukkit.level.Level.getChunk(Level.java:2821) [nukkit.jar:?]
+	at cn.nukkit.level.generator.task.PopulationTask.<init>(PopulationTask.java:36) [nukkit.jar:?]
+	at cn.nukkit.level.Level.populateChunkTask(Level.java:3505) [nukkit.jar:?]
+	at cn.nukkit.level.Level.populateChunk(Level.java:3494) [nukkit.jar:?]
+	at cn.nukkit.Server.<init>(Server.java:620) [nukkit.jar:?]
+	at cn.nukkit.Nukkit.main(Nukkit.java:113) [nukkit.jar:?]
+2026-01-22 16:03:08.201 [main] ERROR - Failed to read chunk 9, 7
+java.lang.IllegalArgumentException: Invalid chunk serializer version 41! Serializers up to 1.21.30 (version 40) are supported
+	at cn.nukkit.level.format.leveldb.serializer.ChunkSerializers.getChunkSerializer(ChunkSerializers.java:45) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.serializer.ChunkSerializers.deserializeChunk(ChunkSerializers.java:55) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.readChunk(LevelDBProvider.java:309) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.readOrCreateChunk(LevelDBProvider.java:272) [nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.getChunk(LevelDBProvider.java:189) [nukkit.jar:?]
+	at cn.nukkit.level.Level.forceLoadChunk(Level.java:3236) [nukkit.jar:?]
+	at cn.nukkit.level.Level.getChunk(Level.java:2821) [nukkit.jar:?]
+	at cn.nukkit.level.generator.task.PopulationTask.<init>(PopulationTask.java:36) [nukkit.jar:?]
+	at cn.nukkit.level.Level.populateChunkTask(Level.java:3505) [nukkit.jar:?]
+	at cn.nukkit.level.Level.populateChunk(Level.java:3494) [nukkit.jar:?]
+	at cn.nukkit.Server.<init>(Server.java:620) [nukkit.jar:?]
+	at cn.nukkit.Nukkit.main(Nukkit.java:113) [nukkit.jar:?]
+2026-01-22 16:03:08.204 [main] ERROR - Failed to read chunk 7, 8
+java.lang.IllegalArgumentException: Invalid chunk serializer version 41! Serializers up to 1.21.30 (version 40) are supported
+	at cn.nukkit.level.format.leveldb.serializer.ChunkSerializers.getChunkSerializer(ChunkSerializers.java:45) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.serializer.ChunkSerializers.deserializeChunk(ChunkSerializers.java:55) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.readChunk(LevelDBProvider.java:309) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.readOrCreateChunk(LevelDBProvider.java:272) [nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.getChunk(LevelDBProvider.java:189) [nukkit.jar:?]
+	at cn.nukkit.level.Level.forceLoadChunk(Level.java:3236) [nukkit.jar:?]
+	at cn.nukkit.level.Level.getChunk(Level.java:2821) [nukkit.jar:?]
+	at cn.nukkit.level.generator.task.PopulationTask.<init>(PopulationTask.java:36) [nukkit.jar:?]
+	at cn.nukkit.level.Level.populateChunkTask(Level.java:3505) [nukkit.jar:?]
+	at cn.nukkit.level.Level.populateChunk(Level.java:3494) [nukkit.jar:?]
+	at cn.nukkit.Server.<init>(Server.java:620) [nukkit.jar:?]
+	at cn.nukkit.Nukkit.main(Nukkit.java:113) [nukkit.jar:?]
+2026-01-22 16:03:08.207 [main] ERROR - Failed to read chunk 9, 8
+java.lang.IllegalArgumentException: Invalid chunk serializer version 41! Serializers up to 1.21.30 (version 40) are supported
+	at cn.nukkit.level.format.leveldb.serializer.ChunkSerializers.getChunkSerializer(ChunkSerializers.java:45) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.serializer.ChunkSerializers.deserializeChunk(ChunkSerializers.java:55) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.readChunk(LevelDBProvider.java:309) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.readOrCreateChunk(LevelDBProvider.java:272) [nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.getChunk(LevelDBProvider.java:189) [nukkit.jar:?]
+	at cn.nukkit.level.Level.forceLoadChunk(Level.java:3236) [nukkit.jar:?]
+	at cn.nukkit.level.Level.getChunk(Level.java:2821) [nukkit.jar:?]
+	at cn.nukkit.level.generator.task.PopulationTask.<init>(PopulationTask.java:36) [nukkit.jar:?]
+	at cn.nukkit.level.Level.populateChunkTask(Level.java:3505) [nukkit.jar:?]
+	at cn.nukkit.level.Level.populateChunk(Level.java:3494) [nukkit.jar:?]
+	at cn.nukkit.Server.<init>(Server.java:620) [nukkit.jar:?]
+	at cn.nukkit.Nukkit.main(Nukkit.java:113) [nukkit.jar:?]
+2026-01-22 16:03:08.208 [main] ERROR - Failed to read chunk 7, 9
+java.lang.IllegalArgumentException: Invalid chunk serializer version 41! Serializers up to 1.21.30 (version 40) are supported
+	at cn.nukkit.level.format.leveldb.serializer.ChunkSerializers.getChunkSerializer(ChunkSerializers.java:45) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.serializer.ChunkSerializers.deserializeChunk(ChunkSerializers.java:55) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.readChunk(LevelDBProvider.java:309) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.readOrCreateChunk(LevelDBProvider.java:272) [nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.getChunk(LevelDBProvider.java:189) [nukkit.jar:?]
+	at cn.nukkit.level.Level.forceLoadChunk(Level.java:3236) [nukkit.jar:?]
+	at cn.nukkit.level.Level.getChunk(Level.java:2821) [nukkit.jar:?]
+	at cn.nukkit.level.generator.task.PopulationTask.<init>(PopulationTask.java:36) [nukkit.jar:?]
+	at cn.nukkit.level.Level.populateChunkTask(Level.java:3505) [nukkit.jar:?]
+	at cn.nukkit.level.Level.populateChunk(Level.java:3494) [nukkit.jar:?]
+	at cn.nukkit.Server.<init>(Server.java:620) [nukkit.jar:?]
+	at cn.nukkit.Nukkit.main(Nukkit.java:113) [nukkit.jar:?]
+2026-01-22 16:03:08.211 [main] ERROR - Failed to read chunk 8, 9
+java.lang.IllegalArgumentException: Invalid chunk serializer version 41! Serializers up to 1.21.30 (version 40) are supported
+	at cn.nukkit.level.format.leveldb.serializer.ChunkSerializers.getChunkSerializer(ChunkSerializers.java:45) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.serializer.ChunkSerializers.deserializeChunk(ChunkSerializers.java:55) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.readChunk(LevelDBProvider.java:309) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.readOrCreateChunk(LevelDBProvider.java:272) [nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.getChunk(LevelDBProvider.java:189) [nukkit.jar:?]
+	at cn.nukkit.level.Level.forceLoadChunk(Level.java:3236) [nukkit.jar:?]
+	at cn.nukkit.level.Level.getChunk(Level.java:2821) [nukkit.jar:?]
+	at cn.nukkit.level.generator.task.PopulationTask.<init>(PopulationTask.java:36) [nukkit.jar:?]
+	at cn.nukkit.level.Level.populateChunkTask(Level.java:3505) [nukkit.jar:?]
+	at cn.nukkit.level.Level.populateChunk(Level.java:3494) [nukkit.jar:?]
+	at cn.nukkit.Server.<init>(Server.java:620) [nukkit.jar:?]
+	at cn.nukkit.Nukkit.main(Nukkit.java:113) [nukkit.jar:?]
+2026-01-22 16:03:08.212 [main] ERROR - Failed to read chunk 9, 9
+java.lang.IllegalArgumentException: Invalid chunk serializer version 41! Serializers up to 1.21.30 (version 40) are supported
+	at cn.nukkit.level.format.leveldb.serializer.ChunkSerializers.getChunkSerializer(ChunkSerializers.java:45) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.serializer.ChunkSerializers.deserializeChunk(ChunkSerializers.java:55) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.readChunk(LevelDBProvider.java:309) ~[nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.readOrCreateChunk(LevelDBProvider.java:272) [nukkit.jar:?]
+	at cn.nukkit.level.format.leveldb.LevelDBProvider.getChunk(LevelDBProvider.java:189) [nukkit.jar:?]
+	at cn.nukkit.level.Level.forceLoadChunk(Level.java:3236) [nukkit.jar:?]
+	at cn.nukkit.level.Level.getChunk(Level.java:2821) [nukkit.jar:?]
+	at cn.nukkit.level.generator.task.PopulationTask.<init>(PopulationTask.java:36) [nukkit.jar:?]
+	at cn.nukkit.level.Level.populateChunkTask(Level.java:3505) [nukkit.jar:?]
+	at cn.nukkit.level.Level.populateChunk(Level.java:3494) [nukkit.jar:?]
+	at cn.nukkit.Server.<init>(Server.java:620) [nukkit.jar:?]
+	at cn.nukkit.Nukkit.main(Nukkit.java:113) [nukkit.jar:?]
+2026-01-22 16:03:08.226 [main] INFO  - Preparing level "§athe_end§f"
+2026-01-22 16:03:08.263 [main] INFO  - Done (2.839s)! For help, type "help" or "?"
+2026-01-22 16:03:47.464 [main] INFO  - [CONSOLE: Stopping the server]
+2026-01-22 16:03:47.514 [main] INFO  - Unloading level "§aworld§f"
+2026-01-22 16:03:47.523 [main] INFO  - Unloading level "§anether§f"
+2026-01-22 16:03:47.527 [main] INFO  - Unloading level "§athe_end§f"
+2026-01-22 16:03:47.536 [main] INFO  - Stopping other threads...
