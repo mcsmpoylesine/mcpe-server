@@ -181,3 +181,34 @@
 
 2026-01-22 [17:12:22.861] [Server thread/INFO]: Done (0.694s)! For help, type "help" or "?"
 2026-01-22 [17:12:22.890] [Server thread/INFO]: [Memory Manager] [Cyclic Garbage Collector] Run #1 took 25.81 ms (112493 -> 0 roots, 0 cycles collected) - cumulative GC time: 25.81 ms
+2026-01-22 [17:22:51.813] [Server thread/INFO]: [CONSOLE: Sunucu durduruluyor]
+2026-01-22 [17:22:51.864] [Server thread/INFO]: Unloading world "world"
+2026-01-22 [17:22:51.894] [Server thread/INFO]: Stopping other threads
+2026-01-22 [17:24:06.289] [Server thread/INFO]: Loading server configuration
+2026-01-22 [17:24:06.297] [Server thread/INFO]: Türkçe (tur) konsol dili olarak seçildi
+2026-01-22 [17:24:06.298] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.21.130
+2026-01-22 [17:24:06.300] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2026-01-22 [17:24:06.304] [Server thread/INFO]: This server is running PocketMine-MP version 5.39.2
+2026-01-22 [17:24:06.304] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2026-01-22 [17:24:06.606] [Server thread/INFO]: Loading resource packs...
+2026-01-22 [17:24:06.711] [Server thread/INFO]: Preparing world "world"
+2026-01-22 [17:24:06.974] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2026-01-22 [17:24:06.974] [Server thread/INFO]: GS4 Query listener running on 0.0.0.0:19132
+2026-01-22 [17:24:06.980] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2026-01-22 [17:24:06.981] [Server thread/INFO]: GS4 Query listener running on [::]:19133
+2026-01-22 [17:24:06.982] [Server thread/INFO]: Default game type: Survival Mode
+2026-01-22 [17:24:06.982] [Server thread/INFO]: 
+
+- Chat on Discord: https://discord.pmmp.io
+- Documentation: https://doc.pmmp.io
+- Source code: https://github.com/pmmp/PocketMine-MP
+- Free plugins: https://poggit.pmmp.io/plugins
+- Donations: https://patreon.com/pocketminemp
+- Translate: https://translate.pocketmine.net
+- Bug reporting: https://github.com/pmmp/PocketMine-MP/issues
+
+2026-01-22 [17:24:06.982] [Server thread/INFO]: Done (0.694s)! For help, type "help" or "?"
+2026-01-22 [17:24:07.010] [Server thread/INFO]: [Memory Manager] [Cyclic Garbage Collector] Run #1 took 24.45 ms (112493 -> 0 roots, 0 cycles collected) - cumulative GC time: 24.45 ms
+2026-01-22 [17:24:34.485] [Server thread/INFO]: [CONSOLE: Sunucu durduruluyor]
+2026-01-22 [17:24:34.535] [Server thread/INFO]: Unloading world "world"
+2026-01-22 [17:24:34.545] [Server thread/INFO]: Stopping other threads
