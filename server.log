@@ -125,3 +125,6 @@
 
 2026-01-22 [16:58:07.545] [Server thread/INFO]: Done (0.822s)! For help, type "help" or "?"
 2026-01-22 [16:58:07.586] [Server thread/INFO]: [Memory Manager] [Cyclic Garbage Collector] Run #1 took 37.64 ms (112493 -> 0 roots, 0 cycles collected) - cumulative GC time: 37.64 ms
+2026-01-22 [17:10:27.048] [Server thread/INFO]: [CONSOLE: Sunucu durduruluyor]
+2026-01-22 [17:10:27.099] [Server thread/INFO]: Unloading world "world"
+2026-01-22 [17:10:27.120] [Server thread/INFO]: Stopping other threads
