@@ -1,17 +1,24 @@
-2026-01-22 15:46:50.728 [main] INFO - Loading server properties...
-2026-01-22 15:46:51.078 [main] INFO - -- Nukkit MOT --
-2026-01-22 15:46:57.629 [main] INFO - Loaded 0 resource packs
-2026-01-22 15:46:57.635 [main] INFO - Opening server on 0.0.0.0:19132
-2026-01-22 15:46:57.844 [main] INFO - Enabling Nukkit-MOT vgit-2728b58
-2026-01-22 15:47:00.593 [main] INFO - NetEase creative items conversion: 817 converted, 23 skipped
-2026-01-22 15:47:00.598 [main] INFO - Converted 1689 creative items to NetEase version
-2026-01-22 15:47:00.673 [main] INFO - native LevelDB provider: false
-2026-01-22 15:47:00.766 [main] INFO - Preparing level "world"
-2026-01-22 15:47:02.068 [main] INFO - Preparing level "nether"
-2026-01-22 15:47:02.090 [main] INFO - Preparing level "the_end"
-2026-01-22 15:47:03.212 [main] INFO - Done (12.513s)! For help, type "help"
-2026-01-22 15:47:09.215 [main] INFO - [CONSOLE: Stopping the server]
-2026-01-22 15:47:09.265 [main] INFO - Unloading level "world"
-2026-01-22 15:47:09.315 [main] INFO - Unloading level "nether"
-2026-01-22 15:47:09.316 [main] INFO - Unloading level "the_end"
-2026-01-22 15:47:09.322 [Watchdog] FATAL - The Watchdog thread has been interrupted and is no longer monitoring the server state
+2026-01-22 15:49:56.508 [main] INFO - Loading server properties...
+2026-01-22 15:49:56.829 [main] INFO - -- Nukkit MOT --
+2026-01-22 15:50:03.648 [main] INFO - Loaded 0 resource packs
+2026-01-22 15:50:03.655 [main] INFO - Opening server on 0.0.0.0:19132
+2026-01-22 15:50:03.819 [main] INFO - Enabling Nukkit-MOT vgit-2728b58
+2026-01-22 15:50:06.559 [main] INFO - NetEase creative items conversion: 817 converted, 23 skipped
+2026-01-22 15:50:06.560 [main] INFO - Converted 1689 creative items to NetEase version
+2026-01-22 15:50:06.592 [main] INFO - native LevelDB provider: false
+2026-01-22 15:50:06.698 [main] INFO - Preparing level "world"
+2026-01-22 15:50:07.922 [main] INFO - Preparing level "nether"
+2026-01-22 15:50:07.954 [main] INFO - Preparing level "the_end"
+2026-01-22 15:50:08.680 [main] INFO - Done (12.208s)! For help, type "help"
+2026-01-22 15:50:38.442 [main] INFO - "Could not op (already op or higher): Memet7867"
+2026-01-22 15:50:45.732 [main] INFO - Turned on the whitelist
+2026-01-22 15:50:57.934 [main] INFO - Usage: 
+2026-01-22 15:50:57.935 [main] INFO - - /whitelist <add|remove> <player: target>
+2026-01-22 15:50:57.935 [main] INFO - - /whitelist <on|off|list|reload>
+2026-01-22 15:51:13.083 [main] INFO - Added Memet7867 to the whitelist
+2026-01-22 15:52:20.682 [main] INFO - Unknown command. Try /help for a list of commands
+2026-01-22 15:52:23.583 [main] INFO - [CONSOLE: Stopping the server]
+2026-01-22 15:52:23.633 [main] INFO - Unloading level "world"
+2026-01-22 15:52:23.636 [main] INFO - Unloading level "nether"
+2026-01-22 15:52:23.637 [main] INFO - Unloading level "the_end"
+2026-01-22 15:52:23.643 [Watchdog] FATAL - The Watchdog thread has been interrupted and is no longer monitoring the server state
