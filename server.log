@@ -72,3 +72,31 @@
 2026-01-22 [16:48:42.449] [Server thread/INFO]: [CONSOLE: Sunucu durduruluyor]
 2026-01-22 [16:48:42.499] [Server thread/INFO]: Unloading world "world"
 2026-01-22 [16:48:42.519] [Server thread/INFO]: Stopping other threads
+2026-01-22 [16:48:56.707] [Server thread/INFO]: Loading server configuration
+2026-01-22 [16:48:56.717] [Server thread/INFO]: Türkçe (tur) konsol dili olarak seçildi
+2026-01-22 [16:48:56.717] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.21.130
+2026-01-22 [16:48:56.719] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2026-01-22 [16:48:56.725] [Server thread/INFO]: This server is running PocketMine-MP version 5.39.2
+2026-01-22 [16:48:56.725] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2026-01-22 [16:48:57.028] [Server thread/INFO]: Loading resource packs...
+2026-01-22 [16:48:57.135] [Server thread/INFO]: Preparing world "world"
+2026-01-22 [16:48:57.378] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2026-01-22 [16:48:57.378] [Server thread/INFO]: GS4 Query listener running on 0.0.0.0:19132
+2026-01-22 [16:48:57.386] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2026-01-22 [16:48:57.386] [Server thread/INFO]: GS4 Query listener running on [::]:19133
+2026-01-22 [16:48:57.386] [Server thread/INFO]: Default game type: Survival Mode
+2026-01-22 [16:48:57.386] [Server thread/INFO]: 
+
+- Chat on Discord: https://discord.pmmp.io
+- Documentation: https://doc.pmmp.io
+- Source code: https://github.com/pmmp/PocketMine-MP
+- Free plugins: https://poggit.pmmp.io/plugins
+- Donations: https://patreon.com/pocketminemp
+- Translate: https://translate.pocketmine.net
+- Bug reporting: https://github.com/pmmp/PocketMine-MP/issues
+
+2026-01-22 [16:48:57.386] [Server thread/INFO]: Done (0.681s)! For help, type "help" or "?"
+2026-01-22 [16:48:57.414] [Server thread/INFO]: [Memory Manager] [Cyclic Garbage Collector] Run #1 took 24.70 ms (112493 -> 0 roots, 0 cycles collected) - cumulative GC time: 24.70 ms
+2026-01-22 [16:51:52.739] [Server thread/INFO]: [CONSOLE: Sunucu durduruluyor]
+2026-01-22 [16:51:52.789] [Server thread/INFO]: Unloading world "world"
+2026-01-22 [16:51:52.805] [Server thread/INFO]: Stopping other threads
