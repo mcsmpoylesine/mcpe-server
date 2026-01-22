@@ -1,0 +1,44 @@
+2026-01-22 [16:36:33.078] [Server thread/INFO]: Loading server configuration
+2026-01-22 [16:36:33.085] [Server thread/INFO]: Türkçe (tur) konsol dili olarak seçildi
+2026-01-22 [16:36:33.086] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.21.130
+2026-01-22 [16:36:33.088] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2026-01-22 [16:36:33.093] [Server thread/INFO]: This server is running PocketMine-MP version 5.39.2
+2026-01-22 [16:36:33.094] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2026-01-22 [16:36:33.414] [Server thread/INFO]: Loading resource packs...
+2026-01-22 [16:36:33.522] [Server thread/INFO]: Preparing world "world"
+2026-01-22 [16:36:33.537] [Server thread/NOTICE]: Spawn terrain for world "world" is being generated in the background
+2026-01-22 [16:36:34.095] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2026-01-22 [16:36:34.095] [Server thread/INFO]: GS4 Query listener running on 0.0.0.0:19132
+2026-01-22 [16:36:34.115] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2026-01-22 [16:36:34.115] [Server thread/INFO]: GS4 Query listener running on [::]:19133
+2026-01-22 [16:36:34.116] [Server thread/INFO]: Default game type: Survival Mode
+2026-01-22 [16:36:34.116] [Server thread/INFO]: 
+
+- Chat on Discord: https://discord.pmmp.io
+- Documentation: https://doc.pmmp.io
+- Source code: https://github.com/pmmp/PocketMine-MP
+- Free plugins: https://poggit.pmmp.io/plugins
+- Donations: https://patreon.com/pocketminemp
+- Translate: https://translate.pocketmine.net
+- Bug reporting: https://github.com/pmmp/PocketMine-MP/issues
+
+2026-01-22 [16:36:34.116] [Server thread/INFO]: Done (1.039s)! For help, type "help" or "?"
+2026-01-22 [16:36:34.125] [Server thread/INFO]: [World: world] Generating spawn terrain: 1 / 224 (0%)
+2026-01-22 [16:36:34.180] [Server thread/INFO]: [Memory Manager] [Cyclic Garbage Collector] Run #1 took 52.50 ms (114878 -> 0 roots, 0 cycles collected) - cumulative GC time: 52.50 ms
+2026-01-22 [16:36:34.098] [AsyncWorker#1 thread/INFO]: [Cyclic Garbage Collector] Run #1 took 8.76 ms (44481 -> 0 roots, 0 cycles collected) - cumulative GC time: 8.76 ms
+2026-01-22 [16:36:34.315] [AsyncWorker#0 thread/INFO]: [Cyclic Garbage Collector] Run #1 took 12.22 ms (44488 -> 0 roots, 0 cycles collected) - cumulative GC time: 12.22 ms
+2026-01-22 [16:36:35.551] [Server thread/INFO]: [World: world] Generating spawn terrain: 23 / 224 (10%)
+2026-01-22 [16:36:35.884] [Server thread/INFO]: [World: world] Generating spawn terrain: 45 / 224 (20%)
+2026-01-22 [16:36:36.242] [Server thread/INFO]: [World: world] Generating spawn terrain: 68 / 224 (30%)
+2026-01-22 [16:36:36.400] [Server thread/INFO]: [World: world] Generating spawn terrain: 90 / 224 (40%)
+2026-01-22 [16:36:36.579] [Server thread/INFO]: [World: world] Generating spawn terrain: 112 / 224 (50%)
+2026-01-22 [16:36:36.761] [Server thread/INFO]: [World: world] Generating spawn terrain: 135 / 224 (60%)
+2026-01-22 [16:36:36.910] [Server thread/INFO]: [World: world] Generating spawn terrain: 157 / 224 (70%)
+2026-01-22 [16:36:37.041] [Server thread/INFO]: [World: world] Generating spawn terrain: 180 / 224 (80%)
+2026-01-22 [16:36:37.174] [Server thread/INFO]: [World: world] Generating spawn terrain: 202 / 224 (90%)
+2026-01-22 [16:36:37.288] [Server thread/INFO]: [World: world] Generating spawn terrain: 224 / 224 (100%)
+2026-01-22 [16:37:46.926] [Server thread/INFO]: [CONSOLE: Memet7867 adlı oyuncuya OP yetkisi verildi.]
+2026-01-22 [16:38:00.270] [Server thread/INFO]: [CONSOLE: Oyun zorluğu 0 olarak ayarlandı]
+2026-01-22 [16:47:49.019] [Server thread/INFO]: [CONSOLE: Sunucu durduruluyor]
+2026-01-22 [16:47:49.069] [Server thread/INFO]: Unloading world "world"
+2026-01-22 [16:47:49.082] [Server thread/INFO]: Stopping other threads
