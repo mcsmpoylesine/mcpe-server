@@ -1,0 +1,13 @@
+name: Codespace Bekçisi
+on:
+  schedule:
+    - cron: '*/20 * * * *'
+  workflow_dispatch:
+
+jobs:
+  wake_up:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Codespace'i Uyandır
+        run: |
+          curl -X POST           -H "Authorization: token ${{ secrets.MY_GH_TOKEN }}"           -H "Accept: application/vnd.github.v3+json"           https://api.github.com/user/codespaces/bookish-invention-9655g4j9grjcxw6q/export
